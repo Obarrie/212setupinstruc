@@ -1,5 +1,11 @@
-jupyter-book
-sphinx
+jupyter-book 
 matplotlib
 numpy
-
+pyppeteer
+pandas
+lxml
+seaborn
+xlrd
+sphinx_fontawesome
+sphinx_panels
+scikit-learn
