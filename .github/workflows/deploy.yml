@@ -27,8 +27,8 @@ jobs:
 
     # Build the book
     - name: Build the site
-      run: |
-        make dirhtml
+      # run: |
+      #   make dirhtml
 
     # If we've pushed to main, push the book's HTML to github-pages
     - if: ${{ github.ref == 'refs/heads/main' }}
