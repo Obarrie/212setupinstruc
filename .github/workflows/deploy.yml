@@ -27,7 +27,7 @@ jobs:
       # Build the book
       - name: Build the site
         run: |
-          jupyter-book build .
+          make html
 
       # If we've pushed to main, push the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
