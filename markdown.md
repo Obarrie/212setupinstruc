@@ -50,7 +50,7 @@ For this project we looked at the Knuth-Morris-Pratt and Boyer-Moore string sear
     The function will then ask which search algortihm to use for the searh
 
 
-<!-- Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
+Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
 in regular markdown files (`.md`), you'll write in the same flavor of markdown
 called **MyST Markdown**.
 This is a simple file to help you get started and show off some syntax.
@@ -71,9 +71,9 @@ are kind of like functions, but written in a markup language. They both
 serve a similar purpose, but **roles are written in one line**, whereas
 **directives span many lines**. They both accept different kinds of inputs,
 and what they do with those inputs depends on the specific role or directive
-that is being called. -->
+that is being called. 
 
-<!-- Here is a "note" directive:
+Here is a "note" directive:
 
 ```{note}
 Here is a note
@@ -102,4 +102,4 @@ then the bibliography is inserted with:
 ## Learn more
 
 This is just a simple starter to get you started.
-You can learn a lot more at [jupyterbook.org](https://jupyterbook.org). -->
+You can learn a lot more at [jupyterbook.org](https://jupyterbook.org). 
