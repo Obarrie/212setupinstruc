@@ -9,10 +9,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Notebooks with MyST Markdown &#8212; My sample book</title>
+    <title>How to Compile &#8212; My sample book</title>
   
   
-  
+<!--   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
@@ -140,7 +140,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item">
   
 
-<a class="navbar-brand logo" href="intro.html">
+<a class="navbar-brand logo" href="intro.html"> 
   
   
   
@@ -150,7 +150,7 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+     <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
     <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
@@ -158,17 +158,17 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
+        <!-- <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
                     Welcome to your Jupyter Book
                 </a>
             </li>
-        </ul>
+        </ul>  -->
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown.html">Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Implementation</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">How to Compile</a></li>
 </ul>
 
     </div>
@@ -319,10 +319,10 @@ const thebe_selector_output = ".output, .cell_output"
   <i class="fas fa-expand"></i>
   </span>
 
-</button>
+</button> -->
 
 
-<script>
+ <script>
 document.write(`
   <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
@@ -338,8 +338,8 @@ document.write(`
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
-</script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</script> 
+ <label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </label>
 </div></div>
@@ -353,7 +353,7 @@ document.write(`
 
 <div id="jb-print-docs-body" class="onlyprint">
     <h1>Notebooks with MyST Markdown</h1>
-    <!-- Table of contents -->
+    Table of contents
     <div id="print-main-content">
         <div id="jb-print-toc">
             
@@ -369,7 +369,7 @@ document.write(`
             </nav>
         </div>
     </div>
-</div>
+</div> 
 
               
                 
@@ -377,29 +377,28 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="notebooks-with-myst-markdown">
-<h1>Notebooks with MyST Markdown<a class="headerlink" href="#notebooks-with-myst-markdown" title="Permalink to this heading">#</a></h1>
-<p>Jupyter Book also lets you write text-based notebooks using MyST Markdown.
-See <a class="reference external" href="https://jupyterbook.org/file-types/myst-notebooks.html">the Notebooks with MyST Markdown documentation</a> for more detailed instructions.
-This page shows off a notebook written in MyST Markdown.</p>
-<section id="an-example-cell">
-<h2>An example cell<a class="headerlink" href="#an-example-cell" title="Permalink to this heading">#</a></h2>
-<p>With MyST Markdown, you can define code cells with a directive like so:</p>
+<h1> How to compile <a class="headerlink" href="#notebooks-with-myst-markdown" title="Permalink to this heading">#</a></h1>
+<p>The code for this function is in the controlF.cpp file and the test cases are in the testCase file.</p>
+
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span </span><span class="p">g++ -std=c++11 controlF.cpp -o search</span>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>4
-</pre></div>
-</div>
-</div>
-</div>
-<p>When your book is built, the contents of any <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.</p>
-<div class="admonition seealso">
+
+<div class="cell docutils container">
+  <div class="cell_input docutils container">
+  <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span </span><span class="p">$ ./search test.txt "key"</span>
+  </pre></div>
+  </div>
+  </div>
+
+  <br>
+
+<p>The function will then ask which search algortihm to use for the searh</p>
+<br>
+<!-- <div class="admonition seealso">
 <p class="admonition-title">See also</p>
 <p>Jupyter Book uses <a class="reference external" href="https://jupytext.readthedocs.io/en/latest/">Jupytext</a> to convert text-based files to notebooks, and can support <a class="reference external" href="https://jupyterbook.org/file-types/jupytext.html">many other text-based notebook files</a>.</p>
 </div>
@@ -421,7 +420,15 @@ See the YAML at the top of this page for example.</p></li>
 </pre></div>
 </div>
 </section>
-</section>
+</section> -->
+
+
+<h2> Time Complexity</h2>
+<img src="https://scaler.com/topics/images/time-complexity-of-z-algorithm.webp" alt="Time Complexity">.
+
+
+
+
 
     <script type="text/x-thebe-config">
     {
@@ -459,7 +466,7 @@ See the YAML at the top of this page for example.</p></li>
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Content with notebooks</p>
+        <p class="prev-next-title">Implementataion</p>
       </div>
     </a>
 </div>

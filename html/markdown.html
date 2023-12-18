@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Markdown Files &#8212; My sample book</title>
+    <title> Algorithms &#8212; My sample book</title>
   
   
   
@@ -162,14 +162,14 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    Welcome to String Searching Algorithm
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Implementaion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">How to Compile</a></li>
 </ul>
 
     </div>
@@ -379,59 +379,59 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="markdown-files">
-<h1>Markdown Files<a class="headerlink" href="#markdown-files" title="Permalink to this heading">#</a></h1>
-<p>Whether you write your book’s content in Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or
-in regular markdown files (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), you’ll write in the same flavor of markdown
-called <strong>MyST Markdown</strong>.
-This is a simple file to help you get started and show off some syntax.</p>
-<section id="what-is-myst">
-<h2>What is MyST?<a class="headerlink" href="#what-is-myst" title="Permalink to this heading">#</a></h2>
-<p>MyST stands for “Markedly Structured Text”. It
-is a slight variation on a flavor of markdown called “CommonMark” markdown,
-with small syntax extensions to allow you to write <strong>roles</strong> and <strong>directives</strong>
-in the Sphinx ecosystem.</p>
-<p>For more about MyST, see <a class="reference external" href="https://jupyterbook.org/content/myst.html">the MyST Markdown Overview</a>.</p>
-</section>
-<section id="sample-roles-and-directives">
-<h2>Sample Roles and Directives<a class="headerlink" href="#sample-roles-and-directives" title="Permalink to this heading">#</a></h2>
-<p>Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but <strong>roles are written in one line</strong>, whereas
-<strong>directives span many lines</strong>. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.</p>
-<p>Here is a “note” directive:</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note</p>
-</div>
-<p>It will be rendered in a special box when you build your book.</p>
-<p>Here is an inline directive to refer to a document: <a class="reference internal" href="markdown-notebooks.html"><span class="doc">Notebooks with MyST Markdown</span></a>.</p>
-</section>
-<section id="citations">
-<h2>Citations<a class="headerlink" href="#citations" title="Permalink to this heading">#</a></h2>
-<p>You can also cite references that are stored in a <code class="docutils literal notranslate"><span class="pre">bibtex</span></code> file. For example,
-the following syntax: <code class="docutils literal notranslate"><span class="pre">{cite}`holdgraf_evidence_2014`</span></code> will render like
-this: <span id="id1">[<a class="reference internal" href="#id3" title="Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In International Conference on Cognitive Neuroscience. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.">HdHPK14</a>]</span>.</p>
-<p>Moreover, you can insert a bibliography into your page with this syntax:
-The <code class="docutils literal notranslate"><span class="pre">{bibliography}</span></code> directive must be used for all the <code class="docutils literal notranslate"><span class="pre">{cite}</span></code> roles to
-render properly.
-For example, if the references for your book are stored in <code class="docutils literal notranslate"><span class="pre">references.bib</span></code>,
-then the bibliography is inserted with:</p>
-<div class="docutils container" id="id2">
-<div class="citation" id="id3" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">HdHPK14</a><span class="fn-bracket">]</span></span>
-<p>Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In <em>International Conference on Cognitive Neuroscience</em>. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="learn-more">
-<h2>Learn more<a class="headerlink" href="#learn-more" title="Permalink to this heading">#</a></h2>
-<p>This is just a simple starter to get you started.
-You can learn a lot more at <a class="reference external" href="https://jupyterbook.org">jupyterbook.org</a>.</p>
-</section>
-</section>
+<h1>The Algorithms</h1>
+<p>
+  <h2>Basic Algorithm</h2> 
+      Basic search is a brute force search that moves through every element of the string until it finds an instance of the key. The algorithm starts by aligning the first element of the key to the first element of the text. At each position of the string, the algorithm checks to see if the elements match. If the elements match for the length of the key, the algorithm has found a match. Otherwise, it moves to the next element in the string to compare it to the key once again. This process repeats until all of the instances of the key have been found.
+      <br>
+      <br>
+      <img src="https://1.bp.blogspot.com/-YJDalyxz6XY/UFCYnd2_nBI/AAAAAAAAAB4/uewJpXgs9Mc/s1600/Brute+Force.jpg" alt="Basic Search">.
+      <br>
+      <br>
+      - Upside:
+              This method has some upsides. It is extremely reliable, and easy to implement.
+      <br>
+      <br>
+      - Downside:
+              Since it makes a comparison at each element in the string, and does not reposition when a mismatch is found, it is very inefficient for large strings and/or keys. These negatives are so severe that it really is only used as a learning tool for people new to algorithms in general. 
+</p>
+
+<h2>KMP(Knuth Morris Pratt)</h2>
+<p> The Knuth-Morris-Pratt (KMP) algorithm optimizes string matching by utilizing a Longest Prefix Suffix (LPS) table, which is a preprocessed array indicating the length of the longest proper prefix that is also a suffix for each position in the key. The LPS table efficiently guides the search process, allowing the algorithm to skip unnecessary comparisons when a mismatch occurs. The preprocessing algorithm initializes the LPS table by iteratively comparing characters in the key and updating the table accordingly. During the search phase, KMP compares the key to the string while intelligently skipping elements based on the LPS values, significantly reducing the number of comparisons compared to a basic approach
+  <br>
+  <br>
+  <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221125004358/image-660x398.png" alt="KMP Search">.
+  <br>
+  <br>
+  - Upside:
+      In essence, KMP enhances the efficiency of string matching by strategically considering the inherent patterns within the key.
+    <br>
+    <br>
+
+  - Downside:
+      it is not the most efficient search algorithm in our project. 
+</p>
+
+<h2> Boyer Moore</h2>
+<p>This algorithm employs two efficient preprocessing methods: the Bad Character Heuristic and the Good Suffix Heuristic. 
+  The Bad Character Heuristic focuses on handling mismatches by shifting the key strategically to the last instance of the "bad character" found in the string.
+   If the bad character isn't present in the key, the comparison window is moved to the character following the bad character, avoiding unnecessary comparisons. 
+   The bad character array, sized for all ASCII values, facilitates this process by storing the rightmost occurrences of characters in the key. On the other hand,
+  the Good Suffix Heuristic also addresses mismatches by recording the character following the mismatched one, known as the good suffix. 
+  It then locates the next instance of the good suffix in the string, comparing only the characters preceding it in both the string and the key. 
+   The good suffix array guides this process, indicating the number of characters to skip to check for the good suffix in the string. 
+   The Boyer-Moore algorithm intelligently combines the insights from both heuristics, optimizing the shift of the comparison window based on the greater 
+   value derived from the Bad Character and Good Suffix Heuristics. 
+ <br>
+ <br>
+ <img src="https://cdn.nearsoft.com/uploads/2018/12/boyer-moore-hosrpool-example.png" alt="BM Search">.
+ <br>
+ <br> 
+ - Upside:
+      This approach minimizes unnecessary comparisons, enhancing the efficiency of string search operations.
+</p>
+
+
 
     <script type="text/x-thebe-config">
     {
@@ -469,7 +469,7 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to your Jupyter Book</p>
+        <p class="prev-next-title">Welcome to String Searching Algorithm</p>
       </div>
     </a>
     <a class="right-next"
@@ -477,7 +477,7 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Content with notebooks</p>
+        <p class="prev-next-title">Implementation</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
