@@ -76,7 +76,7 @@ that is being called.
 Here is a "note" directive:
 
 ```{note}
-Here is a not
+Here is a note
 ```
 
 It will be rendered in a special box when you build your book.
