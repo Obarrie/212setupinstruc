@@ -36,4 +36,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./html  # Adjust the path as needed
+          branch: gh-pages
 
