@@ -1,4 +1,15 @@
 jupyter-book
-sphinx
 matplotlib
 numpy
+ablog
+docutils
+myst_nb
+MyST-Parser
+pydata-sphinx-theme
+sphinx
+sphinx-design
+sphinxcontrib-bibtex
+sphinxext-opengraph
+pyyaml
+sphinx-autobuild
+myst-parser
