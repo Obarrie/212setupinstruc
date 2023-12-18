@@ -35,6 +35,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.5.9
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./html  # Adjust the path as needed
-          branch: gh-pages
+          publish_dir: ./html  # Adjust the path as neede
 
